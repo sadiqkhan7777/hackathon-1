@@ -1,0 +1,119 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #2d3436, #6c757d); /* Black to Slate Gradient */
+    color: white; /* Ensure text stands out */
+}
+
+h1 {
+    text-align: center;
+    color: white; /* White color for better visibility on dark background */
+    font-size: 2em; /* Slightly increase the size for emphasis */
+    margin-top: 20px; /* Add space at the top */
+}
+
+p {
+    text-align: center;
+    color: white; /* White text for readability */
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid #0984e3;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #dfe6e9;
+}
+
+legend {
+    font-weight: bold;
+    color: #2d3436;
+    font-size: large;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2d3436;
+}
+
+input, textarea {
+    width: calc(100% - 16px);
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #74b9ff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #2d3436;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #00cec9;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #00b894;
+}
+
+#resumeOutput {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #6c5ce7;
+    border-radius: 8px;
+    background-color: #f5f7fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #2d3436; /* Ensure text is visible */
+}
+
+#resumeOutput h2 {
+    color: #2d3436;
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #0984e3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.editable {
+    color: #0984e3;
+    cursor: pointer;
+}
+
+.editing-input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #74b9ff;
+    margin-top: 4px;
+}
+
+#resumeOutput .editable:hover {
+    text-decoration: underline;
+}
